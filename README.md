@@ -1,7 +1,7 @@
 # StopWatchApp
 use Timer class to count time
-
- - create Timer class
+```java
+// create Timer class
 Timer timer = new Timer(1000, new ActionListener() {
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -9,8 +9,9 @@ Timer timer = new Timer(1000, new ActionListener() {
     }
 });
 
-- start timer
+// start timer
 timer.start();
 
-- stop timer
+// stop timer
 timer.stop();
+```
